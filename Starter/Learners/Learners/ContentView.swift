@@ -17,17 +17,16 @@ struct ContentView: View {
                 ForEach(learnerData.learners) { learner in
                     HStack {
                         Image(systemName: "person.fill")
-                            .imageScale(.large)
                             .foregroundStyle(learner.favouriteColour)
-                        Text(learner.name)
-                        Text(learner.surname)
+                        
+                        Text("\(learner.name) \(learner.surname)")
                     }
-                  
                 }
             }
             .navigationTitle("Learners")
         }
     }
+    
 }
 
 #Preview {

@@ -12,9 +12,7 @@ struct LearnerDetailView: View {
     var learner: Learner
     
     var body: some View {
-        
         VStack {
-            
             Image(learner.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
@@ -29,20 +27,18 @@ struct LearnerDetailView: View {
             
             Text(learner.description)
                 .font(.title2)
-                .foregroundStyle(Color.blue)
-            
+                .foregroundStyle(learner.favouriteColor)
         }
-        
     }
     
 }
 
 #Preview {
-    LearnerDetailView(learner:
-                        Learner(name: "Adriano",
-                                surname: "Prota",
-                                favouriteColor: .pink,
-                                description: "I love myself",
-                                imageName: "adriano")
+    LearnerDetailView(learner: Learner(
+        name: "Adriano",
+        surname: "Prota",
+        favouriteColor: .pink,
+        description: "I love myself",
+        imageName: "adriano")
     )
 }

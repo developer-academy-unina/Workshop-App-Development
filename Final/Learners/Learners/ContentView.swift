@@ -12,11 +12,9 @@ struct ContentView: View {
     var learnerData = LearnerViewModel()
     
     var body: some View {
-        
         NavigationStack {
             List {
                 ForEach(learnerData.learners) { learner in
-                    
                     NavigationLink {
                         LearnerDetailView(learner: learner)
                     } label: {
@@ -25,8 +23,7 @@ struct ContentView: View {
                                 .imageScale(.large)
                                 .foregroundStyle(learner.favouriteColor)
                             
-                            Text(learner.name)
-                            Text(learner.surname)
+                            Text("\(learner.name) \(learner.surname)")
                         }
                     }
                 }
@@ -34,6 +31,7 @@ struct ContentView: View {
             .navigationTitle("Learners")
         }
     }
+    
 }
 
 #Preview {

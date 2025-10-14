@@ -63,10 +63,10 @@
 				85E837282ADD725500D1A8BC /* Learner.swift */,
 				85E8372A2ADD763600D1A8BC /* LearnerViewModel.swift */,
 				85E8371C2ADD6DB400D1A8BC /* ContentView.swift */,
+				4EA8182A2C90287D0051AC7E /* ContainerView.swift */,
 				993B1EB52ADEBA6400CA5126 /* LearnerDetailView.swift */,
 				85E8371E2ADD6DB500D1A8BC /* Assets.xcassets */,
 				85E837202ADD6DB500D1A8BC /* Preview Content */,
-				4EA8182A2C90287D0051AC7E /* ContainerView.swift */,
 			);
 			path = Learners;
 			sourceTree = "<group>";

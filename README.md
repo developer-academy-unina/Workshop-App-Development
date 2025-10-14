@@ -1,60 +1,49 @@
 <div align="center">
   <h3>Workshop</h3>
-  <h1>App Development</h1>
+  <h1>
+      Introduction to App Development:<br />Create navigation and a detailed info view
+  </h1>
   <br />
+
   <a href="https://github.com/developer-academy-unina/app-development-part-1/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
-  <a href="https://github.com/developer-academy-unina/app-development-part-1/discussions">Ask a Question</a>
-  
+  <a href="https://github.com/developer-academy-unina/app-development-part-1/discussions">
+    Ask a Question
+  </a>
 </div>
-  <br />
+
+<br />
+
 <p align="center">
   <a href="#" alt="Version">
     <img src="https://img.shields.io/static/v1?label=Version&message=1.0.0&color=brightgreen" />
   </a>
   <a href="#" alt="XCode Version">
-    <img src="https://img.shields.io/static/v1?label=XCode%20Version&message=14.0&color=brightgreen&logo=xcode" />
+    <img src="https://img.shields.io/static/v1?label=XCode%20Version&message=26.0&color=brightgreen&logo=xcode" />
   </a>        
   <a href="#" alt="Swift Version">
-    <img src="https://img.shields.io/static/v1?label=Swift%20Version&message=5.0&color=brightgreen&logo=swift" />
+    <img src="https://img.shields.io/static/v1?label=Swift%20Version&message=6.0&color=brightgreen&logo=swift" />
   </a>
   <a href="#" alt="Framework used">
-    <img src="https://img.shields.io/static/v1?label=Framework%20used&message=SwiftUI&color=brightgreen&logo=swift"
-            alt="coverage">
-  </a>          
+    <img src="https://img.shields.io/static/v1?label=Framework%20used&message=SwiftUI&color=brightgreen&logo=swift">
+  </a>            
 </p>
 
-<details open="open">
-<summary>Table of Contents</summary>
-
-- [About](#about)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-- [Issues and Discussions](#issues-and-discussions)
-- [Support](#support)
-- [Authors & contributors](#authors--contributors)
-- [License](#license)
-
-</details>
-
 ---
-<br />
 
 ## About
 
-Moving from interface design to code basics, building together a sample app
+Based on the starter project, this project is used in a code-along workshop to implement navigation from a list of items in a SwiftUI app.
+
+In this workshop, you will cover:
+- How to create navigation between views in a SwiftUI app;
+- How to display information from one view in another view after navigating;
 
 ## Getting Started
 
 ### Installation
 
-1. Clone the repo
-
-   ```sh
-   git clone https://github.com/developer-academy-unina/app-development-part-1
-   ```
-
-2. Open the ```.xcodeproj``` file
+To follow the workshop, you can [download the repository as a zip file](https://github.com/developer-academy-unina/Workshop-App-Development/archive/refs/heads/main.zip).
 
 <br />
 
@@ -77,7 +66,7 @@ Reach out to the maintainer at one of the following places:
 
 - [GitHub Discussions](https://github.com/developer-academy-unina/app-development-part-1/discussions)
 - [GitHub issues](https://github.com/developer-academy-unina/app-development-part-1/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
-- Contact a Mentor for any other help
+- Contact a Mentor for further support
 
 <br />
 
